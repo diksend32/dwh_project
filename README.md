@@ -101,13 +101,15 @@ Transformation accuracy
 
 Additional project documentation is available in the docs/ directory.
 
-File	Description
-etl.drawio	ETL techniques and methods
-data_architecture.drawio	Data warehouse architecture
-data_catalog.md	Dataset and field descriptions
-data_flow.drawio	Data flow diagram
-data_models.drawio	Data models and star schema
-naming-conventions.md	Naming conventions
+File	                                  Description
+etl.drawio	                            ETL techniques and methods
+data_architecture.drawio	              Data warehouse architecture
+data_catalog.md	                        Dataset and field descriptions
+data_flow.drawio	                      Data flow diagram
+data_models.drawio	                    Data models and star schema
+naming-conventions.md	                  Naming conventions
+
+
 👨‍💻 About Me
 
 Hi! I'm Muhammad Suvonov, a Data Analyst based in Tashkent, Uzbekistan. I’m passionate about working with data and building reliable data solutions.
