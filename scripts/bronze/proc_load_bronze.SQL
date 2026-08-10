@@ -1,12 +1,26 @@
 /*
-============================================================================
- Procedure: bronze.upload_data()
- Purpose: Load raw CRM and ERP source data into the Bronze layer.
-          Existing data is truncated before each load.
-          ETL execution time is recorded for each table and the full process.
- ============================================================================
-*/
+===============================================================================
+Stored Procedure: Load Bronze Layer (Source -> Bronze)
+===============================================================================
+Script Purpose:
+    This stored procedure performs the ETL (Extract, Load) process to
+    populate the 'bronze' schema tables from the source CSV files.
 
+Actions Performed:
+    - Truncates Bronze tables before loading.
+    - Loads raw data from CRM and ERP CSV files into Bronze tables.
+    - Tracks the loading duration for each table.
+    - Tracks the total ETL process duration.
+    - Provides error handling and execution status messages.
+
+Parameters:
+    None.
+    This stored procedure does not accept any parameters or return any values.
+
+Usage Example:
+    CALL bronze.upload_data();
+===============================================================================
+*/
 
 CREATE OR REPLACE PROCEDURE bronze.uplaod_data()
 LANGUAGE plpgsql
